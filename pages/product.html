@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://dash-css.netlify.app/css/style.css">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../app.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav_left_side flex flex-center gap-s">
+            <a class="link_wrapper" href="../pages/home.html">
+                <i class="fas fa-axe-battle fa-3x"></i>
+                <span class="h3">G-Commerce</span>
+            </a>
+        </div>
+        <div class="nav_search">
+            <input class="input_regular input_round" placeholder="Search">
+            <button class="btn btn_light">Search</button>
+        </div>
+        <div class="nav_right_side">
+            <a class="link_wrapper" href="../pages/signIn.html">
+                <button class="btn btn_light">Log In</button>
+            </a>
+            <a class="link_wrapper" href="../pages/wishlist.html">
+                <span class="badge_wrapper">
+                    <i class="fas fa-heart fa-2x"></i>
+                    <span class="badge badge_circle badge_primary position_absolute right-0 top-0">4</span>
+                </span>
+            </a>
+            <a class="link_wrapper" href="../pages/cart.html">
+                <span class="badge_wrapper">
+                    <i class="fas fa-shopping-cart fa-2x"></i>
+                    <span class="badge badge_circle badge_primary position_absolute right-0 top-0">4</span>
+                </span>
+            </a>
+        </div>
+
+    </nav>
+    <div class="main_container product_container grid">
+        <aside class=filter>
+            <div class="flex flex-jc-space-between flex-ai-center px-x-small">
+                <h3>Filter</h3>
+                <div>Clear All</div>
+            </div>
+            <ul class="non_bullet_list">
+                <h3>Price</h3>
+                <li><input type="radio" name="price">Price Low to High</li>
+                <li><input type="radio" name="price">Price High to Low</li>
+            </ul>
+            <ul class="non_bullet_list">
+                <h3>Category</h3>
+                <li><input type="radio">Category-1</li>
+                <li><input type="radio">Category-2</li>
+                <li><input type="radio">Category-3</li>
+                <li><input type="radio">Category-4</li>
+            </ul>
+            <ul class="non_bullet_list">
+                <h3>Rating</h3>
+                <input type="range" min="1" max="5" />
+            </ul>
+        </aside>
+        <div class="product_grid">
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">3
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">Best Seller</span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">3
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">Best Seller</span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">3
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">Best Seller</span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">3
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">Best Seller</span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">3
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">Best Seller</span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">3
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">Best Seller</span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">3
+                        <i class="fas fa-star"></i>
+                    </span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_with_dismiss">
+                <div class="card_content">
+                    <img class="card_content_image" src="../assets/card_image.png" , alt="">
+                    <i
+                        class="far far fa-heart fa-lg card_dismiss card_product_heart position_absolute right-10 top-20"></i>
+                    <span class="badge badge_warning position_absolute left-0 top-20">Best Seller</span>
+                    <div class="card_content_header">
+                        <div class="primary_header">
+                            PS5
+                        </div>
+                        <div class="secondary_header">
+                            By Sony
+                        </div>
+                        <div class="fs-s">Rs 50,000</div>
+                        <div>
+                            <span class="fs-xs text_crossed">Rs 59,000</span><span class="fs-xs color_grey_200"> 20%
+                                off</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_actions flex-center">
+                    <div class="card_button_action">
+                        <button class="btn btn_primary_outline">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <footer class='footer'>
+        <ul class="footer-left">
+            <li>Quick Links</li>
+            <li>
+                <ul class="inline_list">
+                    <li class="px-x-small"><a class="link_wrapper" href="../pages/home.html">Home</a></li>
+                    <li class="px-x-small"><a class="link_wrapper" href="../pages/product.html">Products</a></li>
+                    <li class="px-x-small"><a class="link_wrapper" href="../pages/cart.html">My Cart</a></li>
+                    <li class="px-x-small"><a class="link_wrapper" href="../pages/wishlist.html">My Waitlist</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="footer_right inline_list">
+            <li>Connect with the Dev</li>
+            <li>
+                <ul class="inline_list text_center flex flex-jc-space-around">
+                    <li><a><i class="fab fa-twitter fa-lg"></i></a></li>
+                    <li><a><i class="fab fa-github fa-lg"></i></i></a></li>
+                    <li><a><i class="fab fa-instagram fa-lg"></i></a></li>
+                    <li><a><i class="fab fa-linkedin fa-lg"></i></a></li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
