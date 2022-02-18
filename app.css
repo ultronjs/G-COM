@@ -3,8 +3,6 @@
     --background-color:#F8FAFC;
 }
 body{
-    margin: 0;
-    padding: 0;
     background-color: var(--background-color)
 }
 /*Navigation Custom CSS*/
@@ -55,7 +53,7 @@ body{
 }
 .container_pick_your_accessories{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(222px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(13.875rem,1fr));
     gap: 0.4rem;
 }
 .card_featured_category{
@@ -85,10 +83,6 @@ body{
     display: flex;
     justify-content: space-between;
 }
-ul{
-    padding-inline-start: 0.5rem;
- }
-
 .inline_list li{
     display: inline;
 }
