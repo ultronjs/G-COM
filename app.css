@@ -76,7 +76,7 @@ body{
 }
 .input_icon{
     position: relative;
-    bottom: 30px;
+    bottom: 1.875rem;
     padding-right: 5px;
 }
 
@@ -200,7 +200,7 @@ body{
 .footer {
     min-height: 14vh;
     background-color: black;
-    color: white;
+    color: var(--white);
     padding: 1rem 1rem;
     display: flex;
     justify-content: space-between;
