@@ -94,6 +94,49 @@ body{
 .text_crossed{
     text-decoration:line-through;
 }
+/*Cart Page CSS*/
+.cart_container{
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    min-height: 85vh;
+    gap: .5rem;  
+}
+.cart_price_container a{
+    text-decoration: underline;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.cart_card_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+.cart_price_container{
+    border-left: 1px solid black;
+}
+.price_card{
+    width: 20rem;
+}
+.card_horizontal{
+    width: fit-content;
+    height: fit-content;
+}
+.card_content_horizontal{
+    justify-content: space-around;
+    align-items: center;
+}
+.card_actions_horizontal{
+    flex-basis: 10%;
+}
+.cart_total_amount{
+    border-top:1px solid var(--grey-color-200)
+}
+.empty_image{  
+    height: 25rem;
+}
 
 /*Footer Custom CSS*/
 .footer {
