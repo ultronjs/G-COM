@@ -27,7 +27,7 @@
         </div>
         <div class="nav_right_side">
             <a class="link_wrapper" href="../pages/signIn.html">
-                <button class="btn btn_light">Log Out</button>
+                <button class="btn btn_light">Log In</button>
             </a>
             <a class="link_wrapper" href="../pages/wishlist.html">
                 <span class="badge_wrapper">
@@ -43,11 +43,36 @@
             </a>
         </div>
     </nav>
-    <div class="main_container flex flex-col flex-center py-small">
-        <img class="empty_image" src="../assets/empty_cart.png" alt="EMPTY" />
-        <div class="h3">Hey its feels so light!</div>
-        <div class="h5 color_grey_200">There is nothing in your cart.Let's add some items</div>
-        <button class="btn btn_primary_outline">ADD ITEMS FROM WISHLIST</button>
+    <div class=form_container>
+        <div class="form">
+            <div class="form_img">
+                <img src="../assets/login_logo.png" alt="" />
+            </div>
+            <div class="form_header">
+                <span class="h2 text_center">Login</span>
+                <span>Doesn't have account yet? <a href="./signUp.html">Sign Up</a></span>
+            </div>
+            <div class="input_group">
+                <label class="input_label">Email Address</label>
+                <input class="input_regular input_corner" type="email" placeholder="you@example.com">
+            </div>
+            <div class="input_group">
+                <div class="login_password_label">
+                    <label class="input_label">Password</label>
+                    <a>Forgot Password</a>
+                </div>
+                <input class="input_regular input_corner" type="password" placeholder="Enter 6 charater or more">
+                <i class="input_icon flex flex-jc-flex-end fas fa-eye"></i>
+            </div>
+            <div>
+                <input type="checkbox" />
+                Remember Me
+            </div>
+            <div>
+                <button class="btn btn_primary">LOGIN</button>
+            </div>
+
+        </div>
 
     </div>
     <footer class='footer'>
