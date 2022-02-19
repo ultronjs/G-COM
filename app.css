@@ -31,6 +31,7 @@ body{
 .fa-2x{
     font-size: 1.6em;
 }
+/*Homepage Styling*/
 .main_container{
     padding-top: 4.5rem;
     min-height: 85vh;
@@ -72,6 +73,26 @@ body{
 .link_wrapper{
     text-decoration: none;
     color: inherit;
+}
+/*Product Page CSS*/
+.product_container{
+    grid-template-columns: 0.6fr 3.4fr;
+}
+.filter{
+    background-color: var(--white);
+    overflow-y: auto;
+}
+.product_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+}
+.card_product_heart:hover{
+    background-color: var(--pink);
+}
+.text_crossed{
+    text-decoration:line-through;
 }
 
 /*Footer Custom CSS*/
