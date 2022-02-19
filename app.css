@@ -138,6 +138,15 @@ body{
     height: 25rem;
 }
 
+/*WishList Page CSS*/
+.card_wishlist_heart{
+    color: var(--pink);
+}
+.card_wishlist_heart:hover{
+    color: var(--white);
+    background-color:transparent;
+}
+
 /*Footer Custom CSS*/
 .footer {
     min-height: 14vh;
