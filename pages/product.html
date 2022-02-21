@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logo.png">
+    <title>G-Com</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://dash-css.netlify.app/css/style.css">
@@ -46,7 +47,7 @@
     </nav>
     <div class="main_container product_container grid">
         <aside class=filter>
-            <div class="flex flex-jc-space-between flex-ai-center px-x-small">
+            <div class="flex flex-jc-space-between flex-ai-center px-x-small flex-wrap column-gap-small">
                 <h3>Filter</h3>
                 <div>Clear All</div>
             </div>
@@ -64,10 +65,10 @@
             </ul>
             <ul class="non_bullet_list">
                 <h3>Rating</h3>
-                <input type="range" min="1" max="5" />
+                <input class="rating" type="range" min="1" max="5" />
             </ul>
         </aside>
-        <div class="product_grid">
+        <div class="product_grid py-small">
             <div class="card card_with_dismiss">
                 <div class="card_content">
                     <img class="card_content_image" src="../assets/card_image.png" , alt="">
