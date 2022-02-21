@@ -236,7 +236,6 @@ body{
     .cart_card_container{
         grid-area: cart_card_container;
     }
-
     .cart_price_container{
         grid-area: cart_price_container;
         border-left:transparent;
